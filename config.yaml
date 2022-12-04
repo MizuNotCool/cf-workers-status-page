@@ -21,19 +21,19 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: mizunotcool.suzunetwork.workers.dev
     name: ItzKaguya Storage-2
     url: 'https://mizunotcool.suzunetwork.workers.dev/'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: hibiki.suzunetwork.workers.dev
     name: ItzKaguya Storage-3
     url: 'https://hibiki.suzunetwork.workers.dev/'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
     
